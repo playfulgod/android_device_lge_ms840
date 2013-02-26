@@ -11,8 +11,7 @@ PRODUCT_COPY_FILES += \
 
 ## Model specific files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.iprj.rc:root/init.iprj.rc \
-    $(LOCAL_PATH)/config/i_vzw-keypad.kl:system/usr/keylayout/i_vzw-keypad.kl
+    $(LOCAL_PATH)/init.iprj.rc:root/init.iprj.rc
 
 ## LTE on CDMA
 PRODUCT_PACKAGES += \
