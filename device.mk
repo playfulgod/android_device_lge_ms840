@@ -6,7 +6,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/prebuilt/init.qcom.bt.sh:system/bin/init.qcom.bt.sh
+	$(LOCAL_PATH)/prebuilt/bin/init.qcom.bt.sh:system/bin/init.qcom.bt.sh
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
@@ -14,6 +14,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/prebuilt/root/init.iproj.usb.rc:root/init.iproj.usb.rc \
 	$(LOCAL_PATH)/prebuilt/root/init.qcom.sh:root/init.qcom.sh \
 	$(LOCAL_PATH)/prebuilt/root/ueventd.iproj.rc:root/ueventd.iproj.rc
+
+## Baseband
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/prebuilt/etc/init.qcom.baseband.sh:system/etc/init.qcom.baseband.sh
 
 # Recovery
 PRODUCT_COPY_FILES += \
