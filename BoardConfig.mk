@@ -1,4 +1,4 @@
-include vendor/lge/cayman/BoardConfigVendor.mk
+include vendor/lge/ms840/BoardConfigVendor.mk
 
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -8,7 +8,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 422576128
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lge/cayman/kernel
+TARGET_PREBUILT_KERNEL := device/lge/ms840/kernel
 
 # Build kernel from source
 TARGET_KERNEL_SOURCE := kernel/lge/iproj
@@ -27,4 +27,4 @@ BOARD_CDMA_NETWORK := true
 TARGET_OTA_ASSERT_DEVICE := i_vzw,ms840,MS840,cayman
 
 # Recovery
-#BOARD_CUSTOM_GRAPHICS := ../../../device/lge/cayman/recovery/graphics.c
+#BOARD_CUSTOM_GRAPHICS := ../../../device/lge/ms840/recovery/graphics.c

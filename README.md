@@ -33,7 +33,7 @@ Now initialized the repository and pull the source (with my repos attached):
 
 Depending on your connection, this might take awhile.
 
-Getting my repos for the LG Connect (cayman)
+Getting my repos for the LG Connect (ms840)
 	
 	$ cd ~/android/system/device/
 
@@ -41,7 +41,7 @@ Getting my repos for the LG Connect (cayman)
 
 	$ cd lge
 
-	$ git clone https://github.com/playfulgod/android_device_lge_cayman.git cayman
+	$ git clone https://github.com/playfulgod/android_device_lge_ms840.git ms840
 
 Then cd to the kernel directory:
 
@@ -49,7 +49,7 @@ Then cd to the kernel directory:
 
 	$ mkdir lge
 
-	$ git clone https://github.com/playfulgod/lge-kernel-iproj cayman
+	$ git clone https://github.com/playfulgod/lge-kernel-iproj ms840
 
 Extract necessary binaries and proprietary files 
 ------------------------------------------------
@@ -58,7 +58,7 @@ We will need to reuse some proprietary files from the stock ROM:
 
     $ cd
     
-    $ cd ~/android/system/device/lge/cayman
+    $ cd ~/android/system/device/lge/ms840
     
     $ ./extract-files.sh
 
@@ -80,12 +80,12 @@ Now, we build (system being your work directory):
 
 To build for the LG Connect 4G:
     
-    $ . build/envsetup.sh && brunch cayman
+    $ . build/envsetup.sh && brunch ms840
 
 
 Installing CM10
 ---------------
-If the build was successful, you can now take the update zip found in out/target/product/cayman/ and flash using a custom recovery. Make sure to grab the latest Gapps to complete the experience.
+If the build was successful, you can now take the update zip found in out/target/product/ms840/ and flash using a custom recovery. Make sure to grab the latest Gapps to complete the experience.
 
 When you want to rebuild with new changes to the BoardConfig.mk or after syncing to the latest CM src make sure to do the following before you recompile.
 

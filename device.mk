@@ -1,4 +1,4 @@
-$(call inherit-product-if-exists, vendor/lge/cayman/cayman-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/ms840/ms840-vendor.mk)
 
 include device/lge/iproj/device.mk
 

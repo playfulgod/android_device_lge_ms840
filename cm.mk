@@ -14,11 +14,11 @@ TARGET_BOOTANIMATION_NAME := vertical-480x800
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/cayman/full_cayman.mk)
+$(call inherit-product, device/lge/ms840/full_ms840.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := cayman
-PRODUCT_NAME := cm_cayman
+PRODUCT_DEVICE := ms840
+PRODUCT_NAME := cm_ms840
 PRODUCT_BRAND := MetroPCS
 PRODUCT_MODEL := MS840 4G
 PRODUCT_MANUFACTURER := LGE
