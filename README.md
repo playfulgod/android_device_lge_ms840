@@ -49,7 +49,9 @@ Then cd to the kernel directory:
 
 	$ mkdir lge
 
-	$ git clone https://github.com/playfulgod/lge-kernel-iproj ms840
+	$ cd /android/system/kernel/lge
+
+	$ git clone https://github.com/playfulgod/lge-kernel-iproj iproj
 
 Extract necessary binaries and proprietary files 
 ------------------------------------------------
