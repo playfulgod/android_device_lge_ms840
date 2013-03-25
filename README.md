@@ -51,7 +51,7 @@ Then cd to the kernel directory:
 
 	$ mkdir lge
 
-	$ cd /android/system/kernel/lge
+	$ cd ~/android/system/kernel/lge
 
 	$ git clone https://github.com/playfulgod/lge-kernel-iproj iproj
 
