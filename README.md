@@ -47,6 +47,8 @@ Getting my repos for the LG Connect (ms840)
 
 Then cd to the kernel directory:
 
+	$ mkdir ~/android/system/kernel (if it doesnt exist already!)
+
 	$ cd ~/android/system/kernel
 
 	$ mkdir lge
