@@ -41,7 +41,9 @@ Getting my repos for the LG Connect (ms840)
 
 	$ cd lge
 
-	$ git clone https://github.com/playfulgod/android_device_lge_ms840.git ms840
+	$ git clone https://github.com/playfulgod/android_device_lge_ms840.git -b jellybean ms840
+
+	$ git clone https://github.com/thebigq/cm_device_lge_iproj.git -b jellybean iproj
 
 Then cd to the kernel directory:
 
